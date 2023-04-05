@@ -17,7 +17,7 @@ python3 main.py
 ```
 #Charts
 ```sh
-lolosloajsfjahfsh
+git clone
 cd charts
 python3 -m venv env
 source env/bin/activate
