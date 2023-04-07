@@ -1,8 +1,10 @@
 import utils
 import read_csv
 import charts
+import pandas
 
 def run():
+    
     data = read_csv.read_('./data.csv')
     country = input('Type Country: ').capitalize()
     result = utils.population_by_country(data,country)
